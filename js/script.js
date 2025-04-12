@@ -1,10 +1,10 @@
 // Add custom JavaScript here
 function runTypingEffect() {
-    const text = 'I am inperfect'
-    const secondText = 'Full Stack Web Developer | Obsessive Learner'
+    const text = 'I am Jarosław Krzemiński'
+    const secondText = 'Backend Developer | Obsessive Learner'
     const typingElement = document.getElementById('typing-text');
     const typingElement2 = document.getElementById('roles');
-    const typingDelay = 125;
+    const typingDelay = 100;
     const secondDelay = 500;
 
     typeText(text, typingElement, typingDelay);
